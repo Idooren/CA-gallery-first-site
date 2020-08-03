@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Touch The Numbers</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+</head>
+
+<body onload="init()">
+
+
+    <div class="container">
+        <div class="header">
+            <h1>Touch The Numbers</h1> <h2>press on 1 to start the game</h2>
+            <p class="timer"><span></span></p>
+            <p class="next-num"><span> </span></p>
+            <p class="best-score"><span>00 </span></p>
+        </div>
+
+        <div class="table-container">
+            <table class="game-table">
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="win"><img src="https://proxy.mind-media.com/proxy.php?url=http%3A%2F%2Fcdn.iwastesomuchtime.com%2F102420130919109.gif" style="display:none"></div>
+        <div class="buttons">
+            <button onclick="init()">🕹️ shuffle Again</button>
+            <button onclick="resetHighScore()">📛 Reset Score</button>
+        </div>
+    </div>
+    <script src="js/touch-nums.js"></script>
+</body>
+
+</html>

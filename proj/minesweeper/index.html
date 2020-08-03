@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Minesweeper sprint#1</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<div class="sidemovie"><img src="wrongmine.gif" ></div>
+<!-- <div class="sidemovie2"><img src="walking.gif" ></div> -->
+<div class="board-container" align="center"></div>
+<body onload="initGame()">
+  <div class="soldier-container" ></div>
+  <div class="h3">
+    <h3>TIME ELAPSED: </h3>
+    <h3  id="timer"></h3>
+  </div>
+  <div >
+      <button onclick="changeLevel(4, 2)">Beginner</button>
+      <button onclick="changeLevel(8, 12)">Medium</button>
+      <button onclick="changeLevel(12, 30)">Expert</button>
+      <button onclick="initGame()">TRY Again</button>
+  </div>
+  <script src="js/utils.js"></script>
+  <script src="js/neighbors.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

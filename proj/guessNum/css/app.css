@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: rgb(63, 148, 205);
+  text-align: center;
+  color: yellow;
+  font-size: 35px;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 5%;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: lightyellow;
+  text-align: center;
+  color: black;
+  min-height: 5vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(157, 193, 207) ;
+}
+
+.game-main{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+}
+
+.hidden {
+  display: none;
+}
+
+
+  .button{
+    background-color: blue;
+  }
+
+
+.quest{
+  width: 70%;
+}
+
+.game-res {
+  margin-top: 30px;
+}
+
+.form-horizontal{
+  width: 80%; 
+}
+
+.new-quest{
+  width: 80%; 
+}

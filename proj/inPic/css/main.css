@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: lightslategray;
+    border-color: 3px solid pink
+
+}
+.title{
+    display: block;
+    border: 1px solid black;
+    border-radius: 100px ;
+    background-color: lightgray;
+    width: 500px;
+    margin: 0 auto ;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border-radius: 100px ;
+    width: 500px;
+}
+
+.btn1 {
+    margin: 0 auto;
+    width: max-content;
+    /* border: 3px solid black; */
+}
+.btn2 {
+
+    margin-bottom: 10px;
+    width: max-content;
+    
+}
+
+.wrong{
+    background-color: red;
+}
+.currect{
+    background-color: green;
+}
+
+.end_game{
+    display: none;
+}

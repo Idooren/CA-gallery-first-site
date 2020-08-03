@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>in a picture</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="init()">
+ <div
+    class ='title'> <h1> What dog is it?</h1>
+ </div> 
+    
+
+    <img src="images/cane corso.jpg" alt="img of a dog">
+    <div class='btn1' ><button onclick="renderNextQuesttion(this);">option 1</button></div>
+    <div class= 'btn2'></div> <button onclick="renderNextQuesttion(this);">option 2</button></div>
+
+        <div class='end_game'>
+            <h2>You were correct in:</h2>
+            <button onclick="newGame()">Try again</button>
+    
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+.container {
+    font-family: 'Fira Sans';
+   font
+}
+
+.container .table-container {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width:470px;
+}
+
+.container .header {
+    background-color: lightslategray;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 30px;
+    height: 220px;
+    position: relative;
+    border-radius: 100px;
+    width: 700px;
+}
+.container .header h1 {
+    padding: 15px;
+    font-size: 72px;
+}
+
+.container .header p {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 15px;
+    display: inline;
+}
+
+.container .header p span {
+    color: blue;
+}
+
+.game-table {
+    border-spacing: 20px;
+    padding: 10px;
+    border: 1px  solid ;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.game-table td{
+    border-bottom: 6px solid lightslategrey;
+    padding:25px;
+    font-size: 40px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.game-table td:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+}
+
+.touched {
+    background-color: lightslategray;
+    color: white;
+}
+
+.buttons{ text-align: center;}
+
+.buttons button {
+    width: 250px;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    margin-left:40px;
+    cursor: pointer;
+    background-color: lightslategray;
+}
+
+.buttons button:hover {
+background-color: #add8c6;
+}
+
+.win {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
