@@ -37,7 +37,7 @@ var gProjs =
             title: "Minesweeper game",
             desc: "This well built game provides hours of fun! just like the windows classic, you must click on empty tiles that have no mines. If a mine is clicked the game is over, the user loses. The mines are surrounded by numbers that show the user if a mine is close. The user can right-click to create a flag over tiles that are suspected to be mines, if the user covers all the mines they win!",
             url: "portfolio/thumb/minesweeper.jpg",
-            publishedAt: "March 2018",
+            publishedAt: "july 2020",
             labels: ["Matrixes"," " + "Mouse events"],
         },
 
